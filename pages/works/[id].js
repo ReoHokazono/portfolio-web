@@ -4,6 +4,10 @@ import Layout from "../../components/layout"
 import Image from "next/image"
 import styles from "../../styles/work.module.css"
 
+const myLoader = ({ src, width, quality }) => {
+    return src
+  }
+
 export async function getStaticProps({ params }) {
     const workData = await getWorkData(params.id)
     return {
@@ -31,7 +35,8 @@ export default function Work({ workData }) {
                 <h1 className={styles.captionText}>{workData.caption}</h1>
                 <p className={styles.captionType}>{workData.type}</p>
                 <Image 
-                    unoptimized={true} 
+                    loader={myLoader}
+                    // unoptimized={true} 
                     src={`/images/${workData.cover}`} 
                     width={925} 
                     height={700}/>
