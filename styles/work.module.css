@@ -1,0 +1,36 @@
+.workContainer {
+    margin: 2rem 1rem;
+    font-size: 1.6rem;
+}
+
+.workContainer a {
+    color: #0A84FF;
+    text-decoration: underline;
+  }
+  
+  .workContainer a:hover {
+    color: #68B3FF;
+    text-decoration: underline;
+  }
+
+.workContainer img {
+    margin: 3rem 0 0.5rem;
+    width: 100%;
+}
+
+.captionText {
+    font-size: 2.2rem;
+    margin: 3rem 0 0.3rem;
+}
+
+.captionType {
+    margin: 0 0 2rem;
+    font-size: 1.6rem;
+    color: #7F7F7F;
+}
+
+@media (max-width: 79rem) {
+    .workContainer {
+        margin: 2rem 0;
+    }
+  }
