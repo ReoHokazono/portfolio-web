@@ -1,16 +1,44 @@
 html,
 body {
+  background-color: #F0F0F2;
   padding: 0;
   margin: 0;
+  font-size: 62.5%;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+
 a {
+  font-size: 1.6rem;
   color: inherit;
   text-decoration: none;
 }
 
+p {
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  word-break: break-all;
+}
+
+a:hover {
+  color: #656565;
+}
+
+footer {
+  font-size: 1.4rem;
+  text-align: center;
+  clear: both;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.activeLink {
+  color: #0A84FF;
+}
+
+.activeLink:hover {
+  color: #68B3FF;
 }
