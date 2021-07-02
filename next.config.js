@@ -1,7 +1,8 @@
 module.exports = {
   reactStrictMode: true,
-  images: {
-    loader: "imgix",
-    path: ""
-  },
+  target: "serverless"
+  // images: {
+  //   loader: "imgix",
+  //   path: ""
+  // },
 }

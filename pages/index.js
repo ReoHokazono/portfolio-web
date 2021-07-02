@@ -5,9 +5,9 @@ import styles from "../styles/Home.module.css"
 import { getSortedWorksData } from "../lib/works"
 import Layout from "../components/layout"
 
-const myLoader = ({ src, width, quality }) => {
-  return src
-}
+// const myLoader = ({ src, width, quality }) => {
+//   return src
+// }
 
 export async function getStaticProps() {
   const allWorksData = getSortedWorksData()
@@ -31,7 +31,7 @@ export default function Home( {allWorksData} ) {
               <Link href={`/works/${id}`}>
                 <a>
                   <Image 
-                    loader={myLoader}
+                    // loader={myLoader}
                     // unoptimized={true} 
                     src={`/images/${cover}`} 
                     width={370} 

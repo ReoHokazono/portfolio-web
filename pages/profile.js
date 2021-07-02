@@ -1,6 +1,4 @@
 import Head from "next/head"
-import Link from "next/link"
-import Image from "next/image"
 import { getProfileData } from "../lib/profile"
 import Layout from "../components/layout"
 import styles from "../styles/Profile.module.css"
