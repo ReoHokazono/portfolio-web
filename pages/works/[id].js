@@ -36,7 +36,7 @@ export default function Work({ workData }) {
                 <p className={styles.captionType}>{workData.type}</p>
                 <Image 
                     // loader={myLoader}
-                    // unoptimized={true} 
+                    unoptimized={true} 
                     src={`/images/${workData.cover}`} 
                     width={925} 
                     height={700}/>
