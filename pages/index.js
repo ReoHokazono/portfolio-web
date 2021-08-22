@@ -33,6 +33,7 @@ export default function Home( {allWorksData} ) {
                   <Image 
                     // loader={myLoader}
                     // unoptimized={true} 
+                    placeholder="blur"
                     src={`/images/${cover}`} 
                     width={370} 
                     height={280}/>
