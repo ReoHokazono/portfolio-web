@@ -31,9 +31,8 @@ export default function Home( {allWorksData} ) {
               <Link href={`/works/${id}`}>
                 <a>
                   <Image 
-                    // loader={myLoader}
-                    // unoptimized={true} 
-                    placeholder="blur"
+                    unoptimized={true} 
+                    priority={true}
                     src={`/images/${cover}`} 
                     width={370} 
                     height={280}/>

@@ -37,6 +37,7 @@ export default function Work({ workData }) {
                 <Image 
                     // loader={myLoader}
                     unoptimized={true} 
+                    priority={true}
                     src={`/images/${workData.cover}`} 
                     width={925} 
                     height={700}/>
