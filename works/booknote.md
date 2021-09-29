@@ -4,6 +4,9 @@ type: "Mobile App"
 cover: "booknote-0.png"
 ---
 
-2019年に発表されたiOSのUI用フレームワーク（SwiftUI）を活用したiOS, iPadOS用書籍管理・読書メモツールを開発、配信しています。App Storeには多くの読書管理アプリがありますが、Appleのデザインガイドラインに準拠したものはほとんどありません。Appleのデザインガイドラインに準拠したアプリや、iOSらしさを意識したアプリには一定の需要があると考え、このアプリを開発しました。
+2019年に発表されたiOSのUI用フレームワーク（SwiftUI）を活用したiOS, iPadOS用書籍管理・読書メモツールを開発、配信しています。App Storeには多くの読書管理アプリがありますが、Appleのデザインガイドラインに準拠したものはほとんどありません。Appleのデザインガイドラインに準拠したアプリや、iOSらしさを意識したアプリには一定の需要があると考え、このアプリを開発しました。iCloud同期、Spotlight検索対応などのiOS独自の機能も実装しています。
+
+![スクリーンショット1](/images/booknote-1.png)
+![スクリーンショット2](/images/booknote-2.png)
 
 [BookNote - App Store](https://apps.apple.com/jp/app/booknote/id1546487927)
