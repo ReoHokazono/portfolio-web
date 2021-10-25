@@ -8,5 +8,8 @@ cover: "booknote-0.png"
 
 ![スクリーンショット1](/images/booknote-1.png)
 ![スクリーンショット2](/images/booknote-2.png)
+![スクリーンショット3](/images/booknote-3.png)
 
-[BookNote - App Store](https://apps.apple.com/jp/app/booknote/id1546487927)
+<p>
+  <a href="https://apps.apple.com/jp/app/booknote/id1546487927" target="_blank" rel="noopener noreferrer" >BookNote - App Store</a>
+</p>
