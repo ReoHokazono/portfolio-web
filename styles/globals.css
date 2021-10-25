@@ -8,6 +8,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.iframe-margin {
+  margin-bottom: 4rem;
+}
+
 
 a {
   font-size: 1.6rem;
@@ -17,8 +21,10 @@ a {
 
 p {
   font-size: 1.6rem;
-  line-height: 2.7rem;
+  /* font-weight: normal; */
+  line-height: 2.9rem;
   word-break: break-all;
+  color: #2E2E2E;
 }
 
 a:hover {
