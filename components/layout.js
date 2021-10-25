@@ -20,7 +20,7 @@ export default function Layout({ children, nav }) {
                         <a className={nav == "profile" ? "activeLink" : ""} >Profile</a>
                     </Link>
 
-                    <a href="https://github.com/ReoHokazono" >GitHub</a>
+                    <a href="https://github.com/ReoHokazono" target="_blank" rel="noopener noreferrer" >GitHub</a>
                 </nav>
 
             </header>
