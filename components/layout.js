@@ -7,7 +7,7 @@ export default function Layout({ children, nav }) {
             <header className={styles.headerContainer}>
                 <Link href="/">
                     <a className={styles.headerName} >
-                        外園 玲央 / Hokazono Reo
+                        外園 玲央 / Reo Hokazono
                     </a>
                 </Link>
                 
