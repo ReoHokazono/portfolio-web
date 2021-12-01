@@ -32,8 +32,7 @@ export default function Work({ workData }) {
                 <title>{workData.caption} | Reo Hokazono - Portfolio</title>
             </Head>
             <section className={styles.workContainer}>
-                <h1 className={styles.captionText}>{workData.caption}</h1>
-                <p className={styles.captionType}>{workData.type}</p>
+                
                 <Image 
                     // loader={myLoader}
                     // unoptimized={true} 
@@ -41,6 +40,9 @@ export default function Work({ workData }) {
                     src={`/images/${workData.cover}`} 
                     width={925} 
                     height={700}/>
+
+                <h1 className={styles.captionText}>{workData.caption}</h1>
+                <p className={styles.captionType}>{workData.type}</p>
                 <div dangerouslySetInnerHTML={{ __html: workData.contentHtml }} />
             </section>
         </Layout>

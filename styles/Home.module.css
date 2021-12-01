@@ -9,6 +9,11 @@
   float: left;
   background-color: #FFF;
   margin: 2rem 1rem;
+  border-radius: 5px;
+}
+
+.worksUl img {
+  border-radius: 5px 5px 0 0;
 }
 
 .captionContainer {
@@ -32,6 +37,6 @@
 @media (max-width: 79rem) {
   .worksUl li {
       max-width: 100%;
-      margin: 2rem 0;
+      margin: 2rem 0rem;
   }
 }
