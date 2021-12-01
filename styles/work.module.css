@@ -14,7 +14,12 @@
 }
 
 .workContainer img {
-    margin: 3rem 0 0.5rem;
+    margin: 3rem 0 0rem;
+    width: 100%;
+}
+
+.workContainer video {
+    margin: 3rem 0 0rem;
     width: 100%;
 }
 
