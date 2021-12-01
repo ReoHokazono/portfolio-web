@@ -9,6 +9,11 @@
   float: left;
   background-color: #FFF;
   margin: 2rem 1rem;
+  border-radius: 5px;
+}
+
+.worksUl img {
+  border-radius: 5px 5px 0 0;
 }
 
 .captionContainer {

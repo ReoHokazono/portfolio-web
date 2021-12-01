@@ -6,21 +6,32 @@
 .workContainer a {
     color: #0A84FF;
     text-decoration: underline;
-  }
+}
   
 .workContainer a:hover {
   color: #68B3FF;
    text-decoration: underline;
 }
 
+.workContainer p {
+    margin: 1rem auto 1rem;
+}
+
+.workContainer h3 {
+    font-size: 2rem;
+    margin: 5rem auto 1rem;
+}
+
 .workContainer img {
-    margin: 3rem 0 0rem;
+    margin: 0;
     width: 100%;
+    border-radius: 5px;
 }
 
 .workContainer video {
-    margin: 3rem 0 0rem;
+    margin: 0;
     width: 100%;
+    border-radius: 5px;
 }
 
 /* .workContainer iframe {
@@ -29,7 +40,7 @@
 
 .captionText {
     font-size: 2.2rem;
-    margin: 3rem 0 0.3rem;
+    margin: 1rem 0 0.3rem;
 }
 
 .captionType {
