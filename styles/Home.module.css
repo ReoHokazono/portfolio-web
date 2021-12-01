@@ -37,6 +37,6 @@
 @media (max-width: 79rem) {
   .worksUl li {
       max-width: 100%;
-      margin: 2rem 0;
+      margin: 2rem 0rem;
   }
 }

@@ -5,7 +5,7 @@ cover: "tonecurve-0.png"
 ---
 
 ### 
-<video autoplay loop muted playsinline>
+<video autoplay loop muted playsinline poster="/images/posters/tonecurve.png">
   <source src="/movies/tonecurve.mp4" type="video/mp4">
 </video>
 
