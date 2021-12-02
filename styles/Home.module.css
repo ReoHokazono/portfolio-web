@@ -5,10 +5,10 @@
 }
 
 .worksUl li {
-  width: 37rem;  
+  width: 47%;  
   float: left;
   background-color: #FFF;
-  margin: 2rem 1rem;
+  margin: 2rem 1.5%;
   border-radius: 5px;
 }
 
@@ -36,7 +36,9 @@
 
 @media (max-width: 79rem) {
   .worksUl li {
-      max-width: 100%;
-      margin: 2rem 0rem;
+      /* max-width: 37rem; */
+      width: 100%;
+      margin: 2rem 0;
   }
+
 }
