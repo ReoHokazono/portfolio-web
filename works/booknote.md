@@ -25,6 +25,12 @@ cover: "booknote-0.png"
 
 書籍管理アプリとして書誌情報のコピー機能は不可欠なものの、SwiftUIのAPIはテキストの選択・コピー機能を提供していないため、独自のコピー機能を実装しました。
 
+### 自動化
+![CIサイクル](/images/booknote-4.png)
+
+Bitriseによるデプロイの自動化、Fastlaneを使ったスクリーンショット生成の自動化を行いました。
+
+
 ### Screenshots
 ![スクリーンショット1](/images/booknote-1.png)
 ![スクリーンショット2](/images/booknote-2.png)
