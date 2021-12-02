@@ -33,5 +33,9 @@ cover: "booknote-0.png"
 2019年に発表されたiOSのUI用フレームワーク（SwiftUI）を活用したiOS, iPadOS用書籍管理・読書メモツールを開発、配信しています。App Storeには多くの読書管理アプリがありますが、Appleのデザインガイドラインに準拠したものはほとんどありません。Appleのデザインガイドラインに準拠したアプリや、iOSらしさを意識したアプリには一定の需要があると考え、このアプリを開発しました。iCloud同期、Spotlight検索対応などのiOS独自の機能も実装しています。
 
 <p>
+  <a href="https://github.com/ReoHokazono/Books2" target="_blank" rel="noopener noreferrer" >GitHub - ReoHokazono/Books2</a>
+</p>
+
+<p>
   <a href="https://apps.apple.com/jp/app/booknote/id1546487927" target="_blank" rel="noopener noreferrer" >BookNote - App Store</a>
 </p>
