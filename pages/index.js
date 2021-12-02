@@ -24,7 +24,7 @@ export default function Home( {allWorksData} ) {
       <Head>
         <title>Reo Hokazono - Portfolio</title>
       </Head>
-      <section>
+      <div className={styles.worksContainer}>
         <ul className={styles.worksUl}>
           {allWorksData.map(({id, caption, type, cover}) => (
             <li key={id}>
@@ -34,8 +34,8 @@ export default function Home( {allWorksData} ) {
                     // unoptimized={true} 
                     priority={true}
                     src={`/images/${cover}`} 
-                    width={370} 
-                    height={280}/>
+                    width={814} 
+                    height={616}/>
                   <div className={styles.captionContainer}>
                     <p className={styles.captionType}>{type}</p>
                     <p className={styles.captionText}>{caption}</p>
@@ -45,7 +45,7 @@ export default function Home( {allWorksData} ) {
             </li>
           ))}
         </ul>
-      </section>
+      </div>
     </Layout>
   )
 }
