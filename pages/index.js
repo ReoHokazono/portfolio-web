@@ -22,6 +22,7 @@ export default function Home( {allWorksData} ) {
   return (
     <Layout nav="home">
       <Head>
+        <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"hokazono",utcoffset:"9"}))};sessionStorage.setItem("_swa","1");</script>
         <title>Reo Hokazono - Portfolio</title>
       </Head>
       <div className={styles.worksContainer}>
