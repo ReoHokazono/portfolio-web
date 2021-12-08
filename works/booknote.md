@@ -23,7 +23,7 @@ cover: "booknote-0.png"
   <source src="/movies/booknote-copy.mp4" type="video/mp4">
 </video>
 
-書籍管理アプリとして書誌情報のコピー機能は不可欠なものの、SwiftUIのAPIはテキストの選択・コピー機能を提供していないため、独自のコピー機能を実装しました。
+書籍管理アプリとして書誌情報のコピー機能は不可欠なものの、SwiftUIのAPIはテキストの選択・コピー機能を提供していないため、ViewModifierを利用した独自のコピー機能を実装しました。
 
 ### 自動化
 ![CIサイクル](/images/booknote-4.png)
