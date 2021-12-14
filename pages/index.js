@@ -23,7 +23,7 @@ export default function Home( {allWorksData} ) {
     <Layout nav="home">
       <Head>
         <title>Reo Hokazono - Portfolio</title>
-        <meta http-equiv="refresh" content="3;URL=https://hokazono.me"></meta>
+        <meta httpEquiv="refresh" content="3;URL=https://hokazono.me"></meta>
       </Head>
     </Layout>
   )
