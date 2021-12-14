@@ -23,29 +23,8 @@ export default function Home( {allWorksData} ) {
     <Layout nav="home">
       <Head>
         <title>Reo Hokazono - Portfolio</title>
+        <meta http-equiv="refresh" content="3;URL=https://hokazono.me"></meta>
       </Head>
-      <section>
-        <ul className={styles.worksUl}>
-          {allWorksData.map(({id, caption, type, cover}) => (
-            <li key={id}>
-              <Link href={`/works/${id}`}>
-                <a>
-                  <Image 
-                    unoptimized={true} 
-                    priority={true}
-                    src={`/images/${cover}`} 
-                    width={370} 
-                    height={280}/>
-                  <div className={styles.captionContainer}>
-                    <p className={styles.captionType}>{type}</p>
-                    <p className={styles.captionText}>{caption}</p>
-                  </div>
-                </a>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
     </Layout>
   )
 }
