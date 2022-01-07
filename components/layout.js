@@ -27,7 +27,7 @@ export default function Layout({ children, nav }) {
             <main>{children}</main>
             
             <footer>
-                © 2021 Reo Hokazono. All Rights Reserved.
+                © 2021-2022 Reo Hokazono. All Rights Reserved.
             </footer>
         </div>
     )
