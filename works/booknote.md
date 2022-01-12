@@ -16,7 +16,7 @@ cover: "booknote-0.png"
   <source src="/movies/booknote-search.mp4" type="video/mp4">
 </video>
 
-読み仮名などのデータを書誌情報APIから取得、CoreDataに保存して検索に利用しています。Spotlight検索機能にも対応しました。
+読み仮名などのデータを書誌情報APIから取得、CoreDataに保存して検索に利用しています。　Spotlight検索機能にも対応しました。
 
 ### テキストのコピー機能の独自実装
 <video autoplay loop muted playsinline poster="/images/posters/booknote-copy.png">
