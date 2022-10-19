@@ -36,9 +36,9 @@ cover: "tonecurve-0.png"
 
 デザイン系の学生をターゲットとして、トーンカーブの使い方をインタラクティブに学ぶためのWebツールを開発しました。トーンカーブが使えると画像編集の効率が大きく向上しますが、初心者にとってはトーンカーブは動作原理や概念の理解が難しいツールであると考えられます。最初から原理を学ぶのではなく、まずはトーンカーブを使って直感的に操作に慣れたほうが効率的にテクニックを習得できるという発想をベースに開発しました。
 
-<p>
+<!-- <p>
   <a href="https://tonecurve.netlify.app" target="_blank" rel="noopener noreferrer" >Tone Curve Tool（PCのみで動作します）</a>
-</p>
+</p> -->
 
 <p>
   <a href="https://github.com/ReoHokazono/tonecurve" target="_blank" rel="noopener noreferrer" >Source Code(GitHub)</a>
