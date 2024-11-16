@@ -1,51 +1,18 @@
-import Head from "next/head"
-import Link from "next/link"
-import Image from "next/image"
-import styles from "../styles/Home.module.css"
-import { getSortedWorksData } from "../lib/works"
-import Layout from "../components/layout"
+import Head from "next/head";
+import Layout from "../components/layout";
+import Link from "next/link";
+import styles from "../styles/top.module.css";
 
-// const myLoader = ({ src, width, quality }) => {
-//   return src
-// }
-
-export async function getStaticProps() {
-  const allWorksData = getSortedWorksData()
-  return {
-    props: {
-      allWorksData
-    }
-  }
-}
-
-export default function Home( {allWorksData} ) {
+export default function Home() {
   return (
     <Layout nav="home">
       <Head>
-        <title>Reo Hokazono - Portfolio</title>
+        <title>Reo Hokazono</title>
       </Head>
-      <div className={styles.worksContainer}>
-        <ul className={styles.worksUl}>
-          {allWorksData.map(({id, caption, type, cover}) => (
-            <li key={id}>
-              <Link href={`/works/${id}`}>
-                <a>
-                  <Image 
-                    // unoptimized={true} 
-                    priority={true}
-                    src={`/images/${cover}`} 
-                    width={814} 
-                    height={616}/>
-                  <div className={styles.captionContainer}>
-                    <p className={styles.captionType}>{type}</p>
-                    <p className={styles.captionText}>{caption}</p>
-                  </div>
-                </a>
-              </Link>
-            </li>
-          ))}
-        </ul>
+      <div className={styles.linkContainer}>
+        <Link href="https://github.com/ReoHokazono">GitHub</Link>
+        <Link href="https://500px.com/p/hokazono">500px</Link>
       </div>
     </Layout>
-  )
+  );
 }

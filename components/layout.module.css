@@ -1,34 +1,34 @@
 .container {
-    max-width: 90rem;
-    margin: 5rem auto 5rem;
+  max-width: 90rem;
+  margin: 5rem auto 5rem;
 }
 
 .headerContainer {
-    margin: 1rem 1rem;
+  margin: 1rem 1rem;
 }
 
 .headerName {
-    font-size: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-.navContainer{
-    margin: 1.5rem 0 1rem;
-    display: block;
+.navContainer {
+  margin: 1.5rem 0 1rem;
+  display: block;
 }
 
 .navContainer a {
-    margin-right: 2rem;
+  margin-right: 2rem;
 }
 
-
 @media (max-width: 79rem) {
-    .container {
-        /* max-width: 37rem; */
-        margin: 5rem auto 5rem; 
-        padding: 0rem 1rem 0rem;
-    }
+  .container {
+    /* max-width: 37rem; */
+    margin: 5rem auto 5rem;
+    padding: 0rem 1rem 0rem;
+  }
 
-    .headerContainer {
-        margin: 1rem 0rem;
-    }
+  .headerContainer {
+    margin: 1rem 0rem;
+  }
 }
